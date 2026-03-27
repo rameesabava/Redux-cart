@@ -34,7 +34,7 @@ function Footer() {
 
           </div>
           <div className='col-md-3 mt-5'>
-            <h2>Contact Us</h2>
+            <h3>Contact Us</h3>
             <input type="text" placeholder='Email here' className='rounded p-2 me-2' /> <FontAwesomeIcon icon={faArrowRight} />
             <div className='d-flex justify-align-evenly mt-3 gap-3'>
               <FontAwesomeIcon icon={faFacebookF} className='fs-4' />

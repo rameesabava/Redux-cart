@@ -16,7 +16,7 @@ function Header() {
           <Nav className="ms-auto">
             <Nav.Item><input type='text' className='form-control' placeholder='Search Products Here!!!'/> </Nav.Item>
           <Link to={'/wishlist'} className='text-light text-decoration-none fw-bold'><FontAwesomeIcon icon={faHeart} className='btn text-danger'/>Wishlist <Badge pill bg="secondary">10</Badge></Link>
-          <Link to={'/wishlist'} className='text-light text-decoration-none fw-bold'><FontAwesomeIcon icon={faCartPlus} className='btn text-success'/>Cart <Badge pill bg="secondary">10</Badge></Link>
+          <Link to={'/cart'} className='text-light text-decoration-none fw-bold'><FontAwesomeIcon icon={faCartPlus} className='btn text-success'/>Cart <Badge pill bg="secondary">10</Badge></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
